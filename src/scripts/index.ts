@@ -1,3 +1,5 @@
+import "../styles/style.scss";
+
 /** Our main application class, extend this as needed. */
 class Main {
   private readonly verificationLog: string = "Hello world!";

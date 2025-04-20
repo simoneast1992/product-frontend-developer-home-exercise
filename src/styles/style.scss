@@ -1,0 +1,8 @@
+// This is a test SCSS file to check if the setup is working correctly
+// and to see if the SCSS is being compiled to CSS correctly
+
+$blue: rgba(0,100,255);
+
+body {
+  background: $blue;
+}
