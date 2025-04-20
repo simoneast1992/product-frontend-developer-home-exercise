@@ -1,0 +1,19 @@
+@use "./breakpoints.scss";
+
+$primary-font-size: 26px;
+$primary-line-height: 1.25rem;
+$secondary-font-size: 20px;
+$secondary-line-height: 1.35rem;
+$tertiary-font-size: 18px;
+$tertiary-line-height: 1.5rem;
+$font-stack: Veranda, Arial, sans-serif;
+
+// Typography variables when screen size is above 501px wide
+@media only screen and (min-width: breakpoints.$breakpoint) {
+  $primary-font-size: 30px;
+  $primary-line-height: 1.25rem;
+  $secondary-font-size: 22px;
+  $secondary-line-height: 1.35rem;
+  $tertiary-font-size: 18px;
+  $tertiary-line-height: 1.5rem;
+}
